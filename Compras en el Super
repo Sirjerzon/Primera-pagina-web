@@ -1,0 +1,24 @@
+Algoritmo Compras_en_el_super
+	
+	Definir articulo Como Caracter
+	Definir costoArticulo, dineroRecibido, Cambio Como Real
+	
+
+	Escribir " Ingrese el nombre del articulo"
+	leer articulo
+	
+	Escribir " Ingrese el costo del articulo "
+	leer costoArticulo
+	
+	Escribir " Ingrese el dinero recibido "
+	leer dineroRecibido
+	
+	Si dineroRecibido < costoArticulo Entonces
+		Escribir " Ingrese el dinero recibido "
+	SiNo
+		cambio <- dineroRecibido-costoArticulo
+	Fin Si
+	
+	Escribir " Cambio o vuelto es: Q ", cambio 
+	
+FinAlgoritmo
