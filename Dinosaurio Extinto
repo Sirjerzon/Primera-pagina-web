@@ -1,0 +1,20 @@
+Algoritmo Dinosaurio_Extinto
+	
+	escribir sin saltar "Ingresa el nombre del Dinosaurio:";
+	leer nombre_del_Dinosaurio;
+	
+	escribir sin saltar "Ingresa el valor de longitud en pies:";
+	leer longitud_en_pies;
+	
+	escribir sin saltar "Ingresa el valor de peso en toneladas:";
+	leer peso_en_toneladas;
+	
+	peso_en_kilogramos <- peso_en_toneladas*1000;
+	longitud_en_metros <- longitud_en_pies*0.3048;
+	
+	escribir "Nombre del dinosaurio: ", Nombre_del_dinosaurio;
+	escribir "valor de longitud en metros: ", longitud_en_metros;
+	escribir "valor de peso en kilogramos: ", peso_en_kilogramos;
+	
+	
+FinAlgoritmo
